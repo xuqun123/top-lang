@@ -1,8 +1,15 @@
 {
-  "name": "xuqun123/top-lang",
-  "description": "top-lang",
-  "keywords": ["top-lang"],
+  "name": "codefresh-contrib/php-composer-sample-app",
+  "description": "Example php project for Codefresh pipelines",
+  "type": "project",
   "require": {
-      "php": ">=7.2"
-  }
+      "monolog/monolog": "^1.24",
+      "phpunit/php-timer": "^1.0.9"
+  },
+  "authors": [
+      {
+          "name": "Kostis Kapelonis",
+          "email": "kostis@codefresh.io"
+      }
+  ]
 }
